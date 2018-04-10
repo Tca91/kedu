@@ -101,12 +101,37 @@ margin-top: 2px;
 .clear{
   width: 100%;
   clear: both;
+  border-top: 1px solid #282828;
 }
 
 .logo{
   float: left;
+}
+
+.left-side{
+float: left;
+width: 67%;
+height: 500px;
+background-color:#ffffff;
+border-right:1px solid #282828;
+}
+.right-side{
+float: right;
+width:32.9%;
+height: 500px;
+background-color:#ffffff;
+}
+
+.welcome{width: 100%;
+  
+  background-color: #444444;
+
 
 }
+
+
+
+
 .doodle_frog{
   width: 20%;
   height: auto;
@@ -130,7 +155,7 @@ main{
 .indhold {
   display: flex;
   flex-wrap: wrap;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', verdana;
 }
 
 article{
