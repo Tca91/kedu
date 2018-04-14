@@ -152,6 +152,27 @@ padding: 65px 50px 0 0 ;
 .user-icon{
 padding:  20px 0 0 50px;
 }
+.user-icon-forum{
+  float: left;
+  width: 100%;
+  padding: 20px 0 00px 20px;
+  font-size: 13px;
+}
+.user-icon-forum-top{
+  float: left;
+  width: 100%;
+  font-size: 20px;
+  padding: 20px 0 10px 20px;
+  letter-spacing: 2px;
+}
+
+.left b{
+  padding: 0 10px 0 10px;
+  font-size: 15px;
+  text-align: right;
+
+}
+
 .ikonet{
   height: 20px;
 
@@ -214,6 +235,7 @@ h3{
   padding: 0 0 0 50px;
 
 }
+
 h2{
   margin: auto;
   float: left;
@@ -222,6 +244,7 @@ h2{
   text-transform: uppercase;
   font-family: 'Montserrat', verdana;
   text-align: center;
+
 }
 .see-all {
   float: left;
@@ -271,6 +294,11 @@ float: left;
 width: 100%;
 margin: 10px 0 10px 0px;
 }
+.large_prj_forum{
+float: left;
+width: 100%;
+margin: 10px 0 30px 0px;
+}
 
 .small_prj{
 float: left;
@@ -282,7 +310,12 @@ margin: 10px 0 1  0px 0px;
   float: left;
 
 }
+.prj_img_forum{
+  padding: 20px 0 0 20px;
+  height: 60px;
+  float: left;
 
+}
 .tit_large {
 
   float: left;
@@ -340,18 +373,37 @@ margin: 10px 0 1  0px 0px;
 }
 .tekst_large{
   float: left;
-  swidth: 50%
+  width: 50%
   font-size: 14px;
   padding: 15px 0 0 20px;
 
   font-family: 'Montserrat', verdana;
 
 }
+
+.tekst_large2{
+  float: left;
+  width: 480px;
+  min-width: 280px;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 5px 0 0 20px;
+  font-family: 'Montserrat', verdana;
+
+}
+
 .knap1 {
 
 float: right;
 padding: 70px 25px 0 0;
   }
+
+  .knap2 {
+
+  float: right;
+  padding: 40px 35px 0 0;
+    }
+
   .knap-forum {
   float: left;
   margin-top: -3px;
