@@ -625,6 +625,40 @@ input[type=submit] {
     clear: both;
     border-top:1px solid #282828;
 }
+#footer ul {
+    list-style-type: none;
+    float: left;
+
+padding-top: 10px;
+    font-size: 15px;
+    font-family: 'Montserrat', verdana;
+
+
+}
+
+#footer li a {
+    display: block;
+    color: #fff;
+    padding: 2px 10px 4px 20px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+#footer li a:hover {
+
+    color: white;
+}
+
+.socialmedia{
+  float:right;
+  font-size: 15px;
+  color: #fff;
+
+  padding: 12px 10px 4px 20px;
+  font-family: 'Montserrat', verdana;
+
+}
+
 #footer-small {
     width:100%;
     float: left;
