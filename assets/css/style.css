@@ -654,11 +654,14 @@ padding-top: 10px;
   font-size: 15px;
   color: #fff;
 
-  padding: 12px 10px 4px 20px;
   font-family: 'Montserrat', verdana;
 
 }
+.sm-icons{
+  width: 25px;
+  padding: 10px 30px 0 0;
 
+}
 #footer-small {
     width:100%;
     float: left;
