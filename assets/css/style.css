@@ -216,6 +216,63 @@ height: 20px;
 
 }
 
+.undermenu_lesson{
+text-align: center;
+  font-family: 'Montserrat', verdana;
+letter-spacing: 1.3px;
+color: #2e4f7d;
+border-bottom:1px solid #2e4f7d;
+font-weight: bold;
+margin: 30px 0 0 0;
+padding-bottom: 30px;
+font-size: 22px;
+text-transform: uppercase;
+float: left;
+width: 33.3%;
+height: 20px;
+
+
+}
+.back_lesson{
+text-align: center;
+  font-family: 'Montserrat', verdana;
+letter-spacing: 1.3px;
+color: #2e4f7d;
+font-weight: bold;
+margin: 20px 0 0 0;
+padding-left: 30px;
+font-size: 22px;
+text-transform: uppercase;
+float: left;
+width: 30%;
+height: 20px;
+
+
+}
+.over{
+  border-top:1px solid #2e4f7d;
+  height: 80px;
+  width: 100%;
+}
+
+.next_lesson{
+  float: right;
+text-align: center;
+  font-family: 'Montserrat', verdana;
+letter-spacing: 1.3px;
+color: #2e4f7d;
+font-weight: bold;
+padding-right: 30px;
+padding-top: 20px;
+font-size: 22px;
+text-transform: uppercase;
+float: right;
+
+height: 20px;
+
+
+}
+
 h1{
   font-family: 'Montserrat', verdana;
   margin: auto;
@@ -257,12 +314,26 @@ h3{
   font-size: 14px;
   float: left;
   width: 90%;
-  padding: 20px 0 30px 20px;
+  padding: 5px 0 30px 20px;
   line-height: 20px;
 
+}
+.lesson_imgs{
+  float: left;
+  width: 50%;
+  height: 30%;
 
 
 }
+.lesson_img_place{
+  float:left;
+  width: 45%;
+  margin: 50px;
+
+}
+
+
+
 h2{
   margin: auto;
   float: left;
@@ -430,6 +501,10 @@ padding: 70px 25px 0 0;
   float: right;
   padding: 40px 35px 0 0;
     }
+
+    .knap3 {
+float: left;
+      }
 
   .knap-forum {
   float: left;
@@ -631,7 +706,6 @@ article{
 
 .box3 {
 
-  text-align: left;
 }
 
 .box3 h2{
