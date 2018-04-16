@@ -80,12 +80,6 @@ color: #2e4f7d;
   margin-right: -20px;
   width: 30px;
 }
-.user-forum{
-  float: right;
-  margin-top: -12px;
-  margin-right: -10px;
-  width: 30px;
-}
 .grayline{
   float: left;
 margin-top: 14px;
@@ -98,8 +92,6 @@ width: 18px;
 padding-left: 12px;
 margin-top: 2px;
 }
-
-
 .spec{
 width: 18px;
 margin-top: 2px;
@@ -131,13 +123,17 @@ background-color:#ffffff;
 
 .welcome{
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 .intro{
 >>>>>>> parent of af763a9... changes
+=======
+>>>>>>> parent of ac702b9... Merge branch 'master' of https://github.com/Tca91/kedu
 width: 100%;
 height: 300px;
 
 border-bottom:1px solid #282828;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 width: 50%;
@@ -190,6 +186,8 @@ clear: both;
 width: 50%;
 float: left;
 >>>>>>> parent of af763a9... changes
+=======
+>>>>>>> parent of ac702b9... Merge branch 'master' of https://github.com/Tca91/kedu
 
 }
 .continue{
@@ -249,63 +247,6 @@ height: 20px;
 
 }
 
-.undermenu_lesson{
-text-align: center;
-  font-family: 'Montserrat', verdana;
-letter-spacing: 1.3px;
-color: #2e4f7d;
-border-bottom:1px solid #2e4f7d;
-font-weight: bold;
-margin: 30px 0 0 0;
-padding-bottom: 30px;
-font-size: 22px;
-text-transform: uppercase;
-float: left;
-width: 33.3%;
-height: 20px;
-
-
-}
-.back_lesson{
-text-align: center;
-  font-family: 'Montserrat', verdana;
-letter-spacing: 1.3px;
-color: #2e4f7d;
-font-weight: bold;
-margin: 20px 0 0 0;
-padding-left: 30px;
-font-size: 22px;
-text-transform: uppercase;
-float: left;
-width: 30%;
-height: 20px;
-
-
-}
-.over{
-  border-top:1px solid #2e4f7d;
-  height: 80px;
-  width: 100%;
-}
-
-.next_lesson{
-  float: right;
-text-align: center;
-  font-family: 'Montserrat', verdana;
-letter-spacing: 1.3px;
-color: #2e4f7d;
-font-weight: bold;
-padding-right: 30px;
-padding-top: 20px;
-font-size: 22px;
-text-transform: uppercase;
-float: right;
-
-height: 20px;
-
-
-}
-
 h1{
   font-family: 'Montserrat', verdana;
   margin: auto;
@@ -325,6 +266,7 @@ h3{
   padding: 0 0 0 50px;
 
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -405,6 +347,8 @@ color: #3d517b;
 >>>>>>> 56def5d5b860f255f3b9dd737303d7e92210cc70
 =======
 >>>>>>> parent of af763a9... changes
+=======
+>>>>>>> parent of ac702b9... Merge branch 'master' of https://github.com/Tca91/kedu
 .favs{
 float: left;
 width: 100%;
@@ -423,6 +367,7 @@ border-bottom:1px solid #282828;
 .fl{
 float: left;
 width: 100%;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 height: 350px;
@@ -820,6 +765,11 @@ float: left;
 .big-info{
   float: left;
   width: 50%;
+=======
+height: 350px;
+background-color: #e6e6e6;
+border-bottom:1px solid #282828;
+>>>>>>> parent of ac702b9... Merge branch 'master' of https://github.com/Tca91/kedu
 }
 .tekst_large{
   float: left;
@@ -952,13 +902,14 @@ article{
   width: 100%;
   height: 500px;
   display: flex;
-
-
+  justify-content: center;
+  align-items: center;
 }
 
 .box1 {
-
-  border-right: 0.5px solid #282828;
+  background-image: url("../images/front_book.jpg");
+  background-position: center;
+  background-size: cover;
 }
 .box1a {
   background-image: url("../images/in_book.jpg");
@@ -973,13 +924,12 @@ article{
 }
 
 .box2 {
-
-  border-right: 0.5px solid #282828;
-
+  background-color: #eaeaea;
 }
 
 .box3 {
-
+  background-color: #eaeaea;
+  text-align: left;
 }
 
 .box3 h2{
@@ -998,16 +948,6 @@ article{
   margin: 80px 0 60px 0;
 }
 
-.topimg{
-
-  height: 250px;
-  min-height: 180px;
-  background-image: url("../images/forum.jpg");
-  background-position: center;
-  background-size: cover;
-
-
-}
 
 
 .error{
@@ -1030,15 +970,76 @@ border-top: 1px solid #282828;
 
   background-color: #ffffff;
 }
-.forum-header {
-  width: 100%;
-height: 60px;
-border-bottom: 1px solid #282828;
-border-top: 1px solid #282828;
 
-  background-color: #ffffff;
+.brevleft{
+  float: left;
+}
+.brevright{
+  float: right;
 }
 
+/* CONTACT Form*/
+input, textarea {
+  padding: 10px;
+  border: 2px solid #E5E5E5;
+  width: 250px;
+  font-family: 'Coming Soon', cursive;
+}
+
+textarea {
+  width: 500px;
+  height: 200px;
+  max-height: 250px;
+  line-height: 17px;
+  margin-bottom: 20px;
+}
+
+.formular label {
+  margin-left: 10px;
+}
+
+.send input {
+  width: 150px;
+  font-family: 'Coming Soon', cursive;
+  font-size: 17px;
+  background-color: #474E69;
+  color: #FFFFFF;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-family: 'Coming Soon', cursive;
+}
+
+input[type=submit] {
+    background-color: #35b987;
+    color: white;
+    letter-spacing: 1.5pt;
+    text-transform: uppercase;
+    font-family: 'Coming Soon', cursive;
+    padding: 12px 20px;
+    border: none;
+    float: right;
+}
+
+.kontakt {
+    border-radius: 5px;
+    background-color: #eaeaea;
+
+    padding: 5px 100px 100px 100px;
+    margin: 20px 0 0 0;
+}
 
 .col-25 {
     float: left;
@@ -1059,51 +1060,14 @@ border-top: 1px solid #282828;
     clear: both;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> parent of af763a9... changes
+=======
+>>>>>>> parent of ac702b9... Merge branch 'master' of https://github.com/Tca91/kedu
 
 #footer {
-=======
-#footer ul {
-    list-style-type: none;
-    float: left;
-
-padding-top: 10px;
-    font-size: 15px;
-    font-family: 'Montserrat', verdana;
-
-
-}
-
-#footer li a {
-    display: block;
-    color: #fff;
-    padding: 2px 10px 4px 20px;
-    text-decoration: none;
-}
-
-/* Change the link color on hover */
-#footer li a:hover {
-
-    color: white;
-}
-
-.socialmedia{
-  float:right;
-  font-size: 15px;
-  color: #fff;
-
-  font-family: 'Montserrat', verdana;
-
-}
-.sm-icons{
-  width: 25px;
-  padding: 10px 30px 0 0;
-
-}
-#footer-small {
->>>>>>> 56def5d5b860f255f3b9dd737303d7e92210cc70
     width:100%;
     float: left;
     background-color: #2e4f7d;
@@ -1242,7 +1206,7 @@ float: right;
   .box3,
   .box1b,
   .box1a{
-    width: 33.30%;
+    width: 50%;
     height: 500px;
     max-height: 500px;
 
@@ -1258,7 +1222,7 @@ float: right;
   .box3,
   .box1b,
   .box1a {
-    width: 33.33%;
+    width: 50%;
     max-height: 500px;
         }
       }

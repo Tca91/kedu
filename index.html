@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KEDU</title>
     <link rel="stylesheet" href="assets/css/style.css">
-
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   </head>
   <body>
@@ -18,7 +17,7 @@
       <div class="topnav">
         <a href="index.html" class="active">Home</a>
         <a href="#">All lessons</a>
-        <a href="forum.html">Forum</a>
+        <a href="#">Forum</a>
       <!--  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a> -->
       </div>
           <div class="rightnav">
@@ -26,21 +25,9 @@
             <a href="#"><img class="user" src="assets/images/user.jpg" alt=""></a>
             <a href="#">Thomas</a>
              <div class="grayline"></div>
-
-            <a href="#"><button class="openBtn" onclick="openSearch()"><img class="lup_search"  src="assets/images/lup.png" alt=""></button></a>
+            <a href="#"><img class="lup" src="assets/images/lup.jpg" alt=""></a>
             <a href="#"><img class="spec" src="assets/images/spec.jpg" alt=""></a>
           </div>
-
-          <div id="myOverlay" class="overlay">
-            <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
-            <div class="overlay-content">
-              <form action="#">
-                <input class="bleft" type="text" placeholder="Search..." name="search">
-                <button class="bright" type="submit"><img class="lup_search" src="assets/images/lup.png" alt=""></button>
-              </form>
-            </div>
-          </div>
-
     </header>
 
 
@@ -75,7 +62,7 @@
                 <div class="stars">&#9733; &#9733; &#9733;</div>
                 <div class="specs">1h 45m  |  Apr 03, 1018  |  Views 2,103  </div>
               </div>
-              <div class="knap1"><a href="step1.html"><button class="button button4">Watch</button></a> </div>
+              <div class="knap1"><button class="button button4">Watch</button></div>
 
           </div>
           <div class="large_prj">
@@ -201,37 +188,6 @@
 
 
   <div id="footer">
-    <div class="footer-menu">
-      <ul>
-    <li><a href="#"><b>About us</b></a></li>
-    <!--<li><a href="#">News</a></li>
-    <li><a href="#">Contact</a></li>
-    <li><a href="#">About</a></li>-->
-  </ul>
-  <ul>
-  <li><a href="#"><b>Support</b></a></li>
-  <!--<li><a href="#">News</a></li>
-  <li><a href="#">Contact</a></li>
-  <li><a href="#">About</a></li>-->
-</ul>
-<ul>
-<li><a href="#"><b>Contact us
-</b></a></li>
-<!--<li><a href="#">News</a></li>
-<li><a href="#">Contact</a></li>
-<li><a href="#">About</a></li>-->
-</ul>
-
-<div class="socialmedia">
-<a  href="#"><img class="sm-icons"src="assets/images/social/facebook.png" alt=""></a>
-<a  href="#"><img class="sm-icons"src="assets/images/social/youtube.png" alt=""></a>
-<a  href="#"><img class="sm-icons"src="assets/images/social/instagram.png" alt=""></a>
-<a  href="#"><img class="sm-icons"src="assets/images/social/linkedin.png" alt=""></a>
-</div>
-
-</div>
-
-
       <div id="footer-inner">
         <div class="footer-kasser">
 
@@ -249,14 +205,14 @@
   </div>
 
   <script>
-  function openSearch() {
-      document.getElementById("myOverlay").style.display = "block";
-  }
-
-  function closeSearch() {
-      document.getElementById("myOverlay").style.display = "none";
+  function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
   }
   </script>
-
   </body>
 </html>
