@@ -521,6 +521,14 @@ float: left;
   letter-spacing: 3px;
   padding: 10px 0 0 20px;
 }
+.stars2{
+  color: #dddddd;
+  float: left;
+  letter-spacing: 3px;
+  padding: 10px 0 0 0px;
+}
+
+
 
 .specs{
   float: left;
