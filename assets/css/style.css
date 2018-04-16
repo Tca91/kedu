@@ -79,6 +79,12 @@ color: #2e4f7d;
   margin-right: -20px;
   width: 30px;
 }
+.user-forum{
+  float: right;
+  margin-top: -12px;
+  margin-right: -10px;
+  width: 30px;
+}
 .grayline{
   float: left;
 margin-top: 14px;
@@ -91,6 +97,8 @@ width: 18px;
 padding-left: 12px;
 margin-top: 2px;
 }
+
+
 .spec{
 width: 18px;
 margin-top: 2px;
@@ -122,16 +130,117 @@ background-color:#ffffff;
 }
 
 .welcome{
+<<<<<<< HEAD
 width: 100%;
 height: 350px;
 background-color: #e6e6e6;
 border-bottom:1px solid #282828;
+=======
+width: 50%;
+float: left;
+
+}
+.continue{
+width: 50%;
+float: right;
+}
+
+.big_img{
+  width: 250px;
+  float: right;
+padding: 65px 50px 0 0 ;
+}
+
+.user-icon{
+padding:  20px 0 0 50px;
+}
+.user-icon-forum{
+  float: left;
+  width: 100%;
+  padding: 20px 0 00px 20px;
+  font-size: 13px;
+}
+.user-icon-forum-top{
+  float: left;
+  width: 100%;
+  font-size: 20px;
+  padding: 20px 0 10px 20px;
+  letter-spacing: 2px;
+}
+
+.left b{
+  padding: 0 10px 0 10px;
+  font-size: 15px;
+  text-align: right;
+
+}
+
+.ikonet{
+  height: 20px;
+>>>>>>> 56def5d5b860f255f3b9dd737303d7e92210cc70
 
 }
 .vids{
   width: 100%;
   height: 700px;
   background-color: #e6e6e6;
+
+
+}
+
+.undermenu_lesson{
+text-align: center;
+  font-family: 'Montserrat', verdana;
+letter-spacing: 1.3px;
+color: #2e4f7d;
+border-bottom:1px solid #2e4f7d;
+font-weight: bold;
+margin: 30px 0 0 0;
+padding-bottom: 30px;
+font-size: 22px;
+text-transform: uppercase;
+float: left;
+width: 33.3%;
+height: 20px;
+
+
+}
+.back_lesson{
+text-align: center;
+  font-family: 'Montserrat', verdana;
+letter-spacing: 1.3px;
+color: #2e4f7d;
+font-weight: bold;
+margin: 20px 0 0 0;
+padding-left: 30px;
+font-size: 22px;
+text-transform: uppercase;
+float: left;
+width: 30%;
+height: 20px;
+
+
+}
+.over{
+  border-top:1px solid #2e4f7d;
+  height: 80px;
+  width: 100%;
+}
+
+.next_lesson{
+  float: right;
+text-align: center;
+  font-family: 'Montserrat', verdana;
+letter-spacing: 1.3px;
+color: #2e4f7d;
+font-weight: bold;
+padding-right: 30px;
+padding-top: 20px;
+font-size: 22px;
+text-transform: uppercase;
+float: right;
+
+height: 20px;
 
 
 }
@@ -153,6 +262,77 @@ h3{
   padding: 0 0 0 50px;
 
 }
+<<<<<<< HEAD
+=======
+.title_lesson{
+  font-family: 'Montserrat', verdana;
+  font-size: 18px;
+  width: 100%;
+  padding: 20px 0 00px 20px;
+
+}
+.title_lesson2{
+  font-family: 'Montserrat', verdana;
+  font-size: 22px;
+  float: left;
+  font-weight: bold;
+  width: 100%;
+  padding: 0 0 0 20px;
+
+
+}
+.text_lesson{
+  font-family: 'Montserrat', verdana;
+  font-size: 14px;
+  float: left;
+  width: 90%;
+  padding: 5px 0 30px 20px;
+  line-height: 20px;
+
+}
+.lesson_imgs{
+  float: left;
+  width: 50%;
+  height: 30%;
+
+
+}
+.lesson_img_place{
+  float:left;
+  width: 45%;
+  margin: 50px;
+
+}
+
+
+
+h2{
+  margin: auto;
+  float: left;
+  font-size: 18px;
+  margin: 20px 0 0 20px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', verdana;
+  text-align: center;
+
+}
+.see-all {
+  float: left;
+  display: block;
+  color: #282828;
+  padding:25px 0 0 10px;
+
+  font-style: italic;
+  font-size: 11px;
+  font-family: 'Montserrat', verdana;
+}
+
+.see-all:hover {
+color: #3d517b;
+}
+
+
+>>>>>>> 56def5d5b860f255f3b9dd737303d7e92210cc70
 .favs{
 width: 100%;
 height: 250px;
@@ -167,9 +347,346 @@ border-bottom:1px solid #282828;
 }
 .fl{
 width: 100%;
+<<<<<<< HEAD
 height: 350px;
 background-color: #e6e6e6;
 border-bottom:1px solid #282828;
+=======
+height: auto;
+padding: 0 0 40px 0 ;
+
+}
+.left{
+  float: left;
+  width: 100%;
+
+}
+.large_prj{
+float: left;
+width: 100%;
+margin: 10px 0 10px 0px;
+}
+.large_prj_forum{
+float: left;
+width: 100%;
+margin: 10px 0 30px 0px;
+}
+
+.small_prj{
+float: left;
+width: 100%;
+margin: 10px 0 1  0px 0px;
+}
+.prj_img{
+  padding: 20px 0 0 20px;
+  float: left;
+
+}
+.prj_img_forum{
+  padding: 20px 0 0 20px;
+  height: 60px;
+  float: left;
+
+}
+.tit_large {
+
+  float: left;
+  display: block
+  color: #282828;
+  padding:25px 0 0 20px;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: 'Montserrat', verdana;
+
+}
+.title_small {
+  float: left;
+  display: block
+  text-decoration: none;
+  color: #282828;
+  padding:25px 0 0 10px;
+
+}
+.fed{
+  float: left;
+  font-size: 13px;
+  font-weight: 900;
+  font-family: 'Montserrat', verdana;
+}
+
+.italic_small{
+  float: left;
+  font-style: italic;
+  font-size: 11px;
+
+  padding:  2px 0 0 6px;
+  font-family: 'Montserrat', verdana;
+}
+.ita_large{
+  float: left;
+  font-style: italic;
+  font-size: 16px;
+
+
+  padding:  28px 0 0 10px;
+  font-family: 'Montserrat', verdana;
+}
+.tekst_small{
+  float: left;
+  font-size: 11px;
+  max-width: 70%;
+  padding:  8px 0 0 0px;
+  font-family: 'Montserrat', verdana;
+  clear: both;
+}
+.big-info{
+  float: left;
+  width: 50%;
+}
+.tekst_large{
+  float: left;
+  width: 50%
+  font-size: 14px;
+  padding: 15px 0 0 20px;
+
+  font-family: 'Montserrat', verdana;
+
+}
+
+.tekst_large2{
+  float: left;
+  width: 480px;
+  min-width: 280px;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 5px 0 0 20px;
+  font-family: 'Montserrat', verdana;
+
+}
+
+.knap1 {
+
+float: right;
+padding: 70px 25px 0 0;
+  }
+
+  .knap2 {
+
+  float: right;
+  padding: 40px 35px 0 0;
+    }
+
+    .knap3 {
+float: left;
+      }
+
+  .knap-forum {
+  float: left;
+  margin-top: -3px;
+  padding: 0  15px 0 0;
+    }
+
+
+.stars{
+  color: #044c7f;
+  float: left;
+  letter-spacing: 3px;
+  padding: 10px 0 0 20px;
+}
+
+.specs{
+  float: left;
+  width: 100%;
+  font-size: 9px;
+  letter-spacing: 2px;
+  padding: 9px 0 0 20px;
+  color: #282828;
+  overflow: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.search{
+  float: left;
+  font-size: 11px;
+
+  height: 30px;
+  background-color: #f1f1f1;
+
+  font-family: 'Montserrat', verdana;
+
+}
+/* LUP SEARCH */
+.openBtn {
+
+    border: none;
+    padding: 0px 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.openBtn:hover {
+    background: #bbb;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+}
+
+.overlay-content {
+    position: relative;
+    top: 46%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+.overlay .closebtn:hover {
+    color: #ccc;
+}
+.lup_search{
+  width: 16px;
+}
+.bleft{
+float: left;
+}
+.bright{
+padding: 20px;
+}
+
+.overlay input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: white;
+}
+
+.overlay input[type=text]:hover {
+    background: #f1f1f1;
+}
+
+.overlay button {
+    float: right;
+    width: 17%;
+    padding: 15px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.overlay button:hover {
+    background: #bbb;
+}
+
+
+.search-text{float: left;
+  padding: 8px 0 0 10px;
+}
+.search-text2{float: right;
+  margin: -6px -30px 0 80px;
+
+}
+.lup-forum{
+height: 17px;
+float: right;
+}
+
+.knap {
+
+float: left;
+  }
+  .button3 {
+      float: right;
+      width: 138px;
+      height: 38px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      background-color: #ffffff;
+      font-size: 11px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      font-family: 'Montserrat', verdana;
+      cursor: pointer;
+    }
+
+  .button3{
+      background-color: #00a29b;
+      color: #fff;
+      border: 1px solid #fff;
+  }
+
+  .button3:hover {
+      background-color: #044c7f;
+      color: white;
+  }
+
+  .button4 {
+      float: right;
+      width: 98px;
+      height: 38px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      background-color: #ffffff;
+      font-size: 11px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      font-family: 'Montserrat', verdana;
+      cursor: pointer;
+    }
+
+  .button4{
+
+      color: #282828;
+      border: 1px solid #282828;
+  }
+
+  .button4:hover {
+      background-color: #3d517b;
+      color: white;
+  }
+.button5 {
+    float: right;
+    width: 63px;
+    height: 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #ffffff;
+    font-size: 11px;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    font-family: 'Montserrat', verdana;
+    cursor: pointer;
+  }
+
+.button5{
+
+    color: #282828;
+    border: 1px solid #282828;
+>>>>>>> 56def5d5b860f255f3b9dd737303d7e92210cc70
 }
 
 
@@ -223,14 +740,13 @@ article{
   width: 100%;
   height: 500px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+
+
 }
 
 .box1 {
-  background-image: url("../images/front_book.jpg");
-  background-position: center;
-  background-size: cover;
+
+  border-right: 0.5px solid #282828;
 }
 .box1a {
   background-image: url("../images/in_book.jpg");
@@ -245,12 +761,13 @@ article{
 }
 
 .box2 {
-  background-color: #eaeaea;
+
+  border-right: 0.5px solid #282828;
+
 }
 
 .box3 {
-  background-color: #eaeaea;
-  text-align: left;
+
 }
 
 .box3 h2{
@@ -269,6 +786,16 @@ article{
   margin: 80px 0 60px 0;
 }
 
+.topimg{
+
+  height: 250px;
+  min-height: 180px;
+  background-image: url("../images/forum.jpg");
+  background-position: center;
+  background-size: cover;
+
+
+}
 
 
 .error{
@@ -306,76 +833,15 @@ border-top: 1px solid #282828;
 
   background-color: #ffffff;
 }
+.forum-header {
+  width: 100%;
+height: 60px;
+border-bottom: 1px solid #282828;
+border-top: 1px solid #282828;
 
-.brevleft{
-  float: left;
-}
-.brevright{
-  float: right;
-}
-
-/* CONTACT Form*/
-input, textarea {
-  padding: 10px;
-  border: 2px solid #E5E5E5;
-  width: 250px;
-  font-family: 'Coming Soon', cursive;
+  background-color: #ffffff;
 }
 
-textarea {
-  width: 500px;
-  height: 200px;
-  max-height: 250px;
-  line-height: 17px;
-  margin-bottom: 20px;
-}
-
-.formular label {
-  margin-left: 10px;
-}
-
-.send input {
-  width: 150px;
-  font-family: 'Coming Soon', cursive;
-  font-size: 17px;
-  background-color: #474E69;
-  color: #FFFFFF;
-  border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-}
-
-input[type=text], select, textarea{
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    resize: vertical;
-}
-
-label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
-    font-family: 'Coming Soon', cursive;
-}
-
-input[type=submit] {
-    background-color: #35b987;
-    color: white;
-    letter-spacing: 1.5pt;
-    text-transform: uppercase;
-    font-family: 'Coming Soon', cursive;
-    padding: 12px 20px;
-    border: none;
-    float: right;
-}
-
-.kontakt {
-    border-radius: 5px;
-    background-color: #eaeaea;
-
-    padding: 5px 100px 100px 100px;
-    margin: 20px 0 0 0;
-}
 
 .col-25 {
     float: left;
@@ -394,8 +860,49 @@ input[type=submit] {
     display: table;
     clear: both;
 }
+<<<<<<< HEAD
 
 #footer {
+=======
+#footer ul {
+    list-style-type: none;
+    float: left;
+
+padding-top: 10px;
+    font-size: 15px;
+    font-family: 'Montserrat', verdana;
+
+
+}
+
+#footer li a {
+    display: block;
+    color: #fff;
+    padding: 2px 10px 4px 20px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+#footer li a:hover {
+
+    color: white;
+}
+
+.socialmedia{
+  float:right;
+  font-size: 15px;
+  color: #fff;
+
+  font-family: 'Montserrat', verdana;
+
+}
+.sm-icons{
+  width: 25px;
+  padding: 10px 30px 0 0;
+
+}
+#footer-small {
+>>>>>>> 56def5d5b860f255f3b9dd737303d7e92210cc70
     width:100%;
     float: left;
     background-color: #e9e9e9;
@@ -485,7 +992,7 @@ float: right;
   .box3,
   .box1b,
   .box1a{
-    width: 50%;
+    width: 33.30%;
     height: 500px;
     max-height: 500px;
 
@@ -501,7 +1008,7 @@ float: right;
   .box3,
   .box1b,
   .box1a {
-    width: 50%;
+    width: 33.33%;
     max-height: 500px;
         }
       }
