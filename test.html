@@ -1,110 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="Send us your story, and we will illustrate and tell you an adventure">
-    <meta name="keywords" content="doodle, dragon, comics, fantasy, tail">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KEDU</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+    font-family: Montserrat, verdana;
+}
 
-    <link rel="manifest" href="assets/images/site.webmanifest">
-    <link rel="mask-icon" href="assets/images/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <a href="index.html"> <img src="assets/images/logo_r.jpg" alt="Doodle Dragon Logo" class="logo"></a>
-      </div>
-      <div class="topnav" id="myTopnav">
-        <a href="index.html" class="active">Home</a>
-        <a href="#shop">Shop</a>
-        <a href="error.html">About</a>
-        <a href="contact.html">Contact</a>
-        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-      </div>
+* {
+    box-sizing: border-box;
+}
 
-    </header>
-    <div class="clear"></div>
-    <main>
+.openBtn {
+
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.openBtn:hover {
+    background: #bbb;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+}
+
+.overlay-content {
+    position: relative;
+    top: 46%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    cursor: pointer;
+    color: white;
+}
+
+.overlay .closebtn:hover {
+    color: #ccc;
+}
+.lup_search{
+  width: 16px;
+}
+
+.overlay input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: white;
+}
+
+.overlay input[type=text]:hover {
+    background: #f1f1f1;
+}
+
+.overlay button {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.overlay button:hover {
+    background: #bbb;
+}
+</style>
+</head>
+<body>
 
 
-        <h1>Translate your story to an amazing tail</h1>
-        <h3>Send us your story, and we will illustrate and tell you an adventure, with you in the lead role, as well as a dragon or other fabled animal</h3>
-
-    </main>
-    <div class='indhold'>
-      <div class='section box1'></div>
-        <div class='section box2'>
-          <article class="left"><h2>Do you have a story to tell?</h2>
-            <p>We have alle been there, having ekspiriansed a something you thougt was fantastisk, but there was just one problem.
-              The story just not quite interesting enorgh to tell. If only it was possible to ad some spice to the tale,
-              some villains, dragons and other fabled animals. Then YOU would always remember just how mush of an hero, you felt that day.</p>
-          </article>
-        </div>
-      </div>
-
-    <div class='indhold'>
-      <div class='section box2'>
-        <article class="left"><h2> How can we make your story epic? </h2>
-          <p> We are a team of skillful ilustraters, with a healthy dose of humor. We will give you the oputunaty to tell your tale it with some epic fantasy illustrations.
-             No story is so good, that it can't be improved upon with use of cartoon dragons and knights in shiny armor.</p>
-          <p>You can order a single illustration, or make your own comic strip. No matter if you want a fleshed out story,
-      </div>
-
-      <div class='section box1a'>
-      </div>
-    </div>
-    <div class='indhold'>
-      <div class='section box1b'></div>
-        <div class='section box3'>
-          <article class="left"><h2>What Our Clients Say</h2>
-            <div class='indhold'>
-          <p>  I want to thank your all for your work on my personal Pixi Book. It looks 150% better than I could have imagent –  <b><i>Nancy Cookt</i></b>
-          </p></br>
-<p>  I´m very pleased with the quality of work from DoodleDragon, personally am very satisfied with the level of quality and effort! they put into this. A big thanks again, for all of your efforts.
- –  <b><i>Nick Krewson</i></b>
-</p></br><!--
-<p> DD is an absolute go-to Site. It’s packed with humor, creative thinking. –  <b><i>Gareth Kay</i></b>
-</p></br>-->
-          </article>
-        </div>
-      </div>
-
-          </article>
-        </div>
-      </div>
 
 
-  <div id="footer">
-      <div id="footer-inner">
-        <div class="footer-kasser">
-          <div class="kasse"><a href="#"> <img src="assets/images/logo_r.png" style="width:150px"  alt="Doodle Dragon"></a></div>
-          <div class="kasse2"> Dragon Street on Dragon Island  <br> +45 12 34 56 78 <br> dragon@doodledragon.dr</div>
-          <div class="kasse3"> <h5>Social Media</h5>
-            <div class="sm">
-              <a href="https://www.linkedin.com/" target="_blank"> <img class="smlink" src="assets/images/social/linkedin.png" width="30px" alt="Linkedin" style="padding-right:10px"></a>
-              <a href="https://www.facebook.com/" target="_blank"> <img src="assets/images/social/facebook.png"width="30px" alt="Facebook" style="padding-right:10px"></a>
-              <a href="https://www.instagram.com/" target="_blank"> <img src="assets/images/social/instagram.png"width="30px" alt="Instagram" style="padding-right:10px"></a>
-              <a href="https://www.youtube.com/" target="_blank"> <img src="assets/images/social/youtube.png" width="30px" alt="Youtube" style="padding-right:10px"></a>
-            </div>
-          </div>
-        </div>
-      </div>
+<button class="openBtn" onclick="openSearch()"><img class="lup_search"  src="assets/images/lup.png" alt=""></button>
+<div id="myOverlay" class="overlay">
+  <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+  <div class="overlay-content">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search..." name="search">
+      <button type="submit"><img class="lup_search" src="assets/images/lup.png" alt=""></button>
+    </form>
   </div>
+</div>
+<script>
+function openSearch() {
+    document.getElementById("myOverlay").style.display = "block";
+}
 
-  <script>
-  function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-          x.className += " responsive";
-      } else {
-          x.className = "topnav";
-      }
-  }
-  </script>
-  </body>
+function closeSearch() {
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
 </html>
