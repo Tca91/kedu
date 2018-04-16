@@ -21,6 +21,7 @@ ul {
 
 .logo{border-right: 0.5px solid #282828;
 
+
 }
 
 .topnav a {
@@ -104,12 +105,10 @@ width: 18px;
 margin-top: 2px;
 }
 
-
 .clear{
-  width: 100%;
   clear: both;
-  border-top: 1px solid #282828;
 }
+
 
 .logo{
   float: left;
@@ -117,24 +116,29 @@ margin-top: 2px;
 
 .left-side{
 float: left;
-width: 67%;
+width: 62%;
 
 background-color:#ffffff;
 border-right:1px solid #282828;
 }
 .right-side{
 float: right;
-width:32.9%;
-height: 500px;
+width:37.9%;
+
 background-color:#ffffff;
 }
+<<<<<<< HEAD
 
 .welcome{
 <<<<<<< HEAD
+=======
+.intro{
+>>>>>>> parent of af763a9... changes
 width: 100%;
-height: 350px;
-background-color: #e6e6e6;
+height: 300px;
+
 border-bottom:1px solid #282828;
+<<<<<<< HEAD
 =======
 width: 50%;
 float: left;
@@ -178,12 +182,69 @@ padding:  20px 0 0 50px;
 .ikonet{
   height: 20px;
 >>>>>>> 56def5d5b860f255f3b9dd737303d7e92210cc70
+=======
+clear: both;
 
+}
+.welcome{
+width: 50%;
+float: left;
+>>>>>>> parent of af763a9... changes
+
+}
+.continue{
+width: 50%;
+float: right;
+}
+
+.big_img{
+  width: 250px;
+  float: right;
+padding: 65px 50px 0 0 ;
+}
+
+.user-icon{
+padding:  20px 0 0 50px;
+}
+.ikonet{
+  height: 20px;
+
+  padding-top: -10px;
+  padding-right: 20px;
+  float: left;
 }
 .vids{
   width: 100%;
-  height: 700px;
+
   background-color: #e6e6e6;
+
+
+}
+.undermenu1{
+text-align: center;
+padding-top: 13px;
+padding-bottom: 10px;
+letter-spacing: 1.3px;
+font-size: 14px;
+color: #2e4f7d;
+background-color:#ffffff
+text-transform: uppercase;
+float: left;
+width: 33.4%;
+height: 23px;
+}
+.undermenu{
+text-align: center;
+letter-spacing: 1.3px;
+padding-top: 13px;
+color: #ffffff;
+background-color: #2e4f7d;
+padding-bottom: 10px;
+font-size: 12px;
+text-transform: uppercase;
+float: left;
+width: 33.3%;
+height: 20px;
 
 
 }
@@ -249,6 +310,7 @@ h1{
   font-family: 'Montserrat', verdana;
   margin: auto;
   color: #2e4f7d;
+  font-weight: 100;
   text-align: left;
   font-size: 20px;
   padding: 50px 0 0 50px;
@@ -257,11 +319,13 @@ h3{
   font-family: 'Montserrat', verdana;
   text-align: left;
   margin: auto;
+  color: #2e4f7d;
   font-size: 45px;
   font-weight: bold;
   padding: 0 0 0 50px;
 
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 .title_lesson{
@@ -306,6 +370,8 @@ h3{
 
 
 
+=======
+>>>>>>> parent of af763a9... changes
 h2{
   margin: auto;
   float: left;
@@ -314,7 +380,10 @@ h2{
   text-transform: uppercase;
   font-family: 'Montserrat', verdana;
   text-align: center;
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of af763a9... changes
 }
 .see-all {
   float: left;
@@ -332,26 +401,36 @@ color: #3d517b;
 }
 
 
+<<<<<<< HEAD
 >>>>>>> 56def5d5b860f255f3b9dd737303d7e92210cc70
+=======
+>>>>>>> parent of af763a9... changes
 .favs{
+float: left;
 width: 100%;
-height: 250px;
-background-color: #e6e6e6;
+height: auto;
 border-bottom:1px solid #282828;
+padding: 0 0 40px 0 ;
 }
 .lbw{
+float: left;
 width: 100%;
-height: 400px;
-background-color: #e6e6e6;
+height: auto;
+padding: 0 0 40px 0 ;
+
 border-bottom:1px solid #282828;
 }
 .fl{
+float: left;
 width: 100%;
+<<<<<<< HEAD
 <<<<<<< HEAD
 height: 350px;
 background-color: #e6e6e6;
 border-bottom:1px solid #282828;
 =======
+=======
+>>>>>>> parent of af763a9... changes
 height: auto;
 padding: 0 0 40px 0 ;
 
@@ -366,11 +445,14 @@ float: left;
 width: 100%;
 margin: 10px 0 10px 0px;
 }
+<<<<<<< HEAD
 .large_prj_forum{
 float: left;
 width: 100%;
 margin: 10px 0 30px 0px;
 }
+=======
+>>>>>>> parent of af763a9... changes
 
 .small_prj{
 float: left;
@@ -382,12 +464,16 @@ margin: 10px 0 1  0px 0px;
   float: left;
 
 }
+<<<<<<< HEAD
 .prj_img_forum{
   padding: 20px 0 0 20px;
   height: 60px;
   float: left;
 
 }
+=======
+
+>>>>>>> parent of af763a9... changes
 .tit_large {
 
   float: left;
@@ -398,6 +484,7 @@ margin: 10px 0 1  0px 0px;
   font-weight: 900;
   font-family: 'Montserrat', verdana;
 
+<<<<<<< HEAD
 }
 .title_small {
   float: left;
@@ -687,8 +774,140 @@ float: left;
     color: #282828;
     border: 1px solid #282828;
 >>>>>>> 56def5d5b860f255f3b9dd737303d7e92210cc70
+=======
+>>>>>>> parent of af763a9... changes
+}
+.title_small {
+  float: left;
+  display: block
+  text-decoration: none;
+  color: #282828;
+  padding:25px 0 0 10px;
+
+}
+.fed{
+  float: left;
+  font-size: 13px;
+  font-weight: 900;
+  font-family: 'Montserrat', verdana;
 }
 
+.italic_small{
+  float: left;
+  font-style: italic;
+  font-size: 11px;
+
+  padding:  2px 0 0 6px;
+  font-family: 'Montserrat', verdana;
+}
+.ita_large{
+  float: left;
+  font-style: italic;
+  font-size: 16px;
+
+
+  padding:  28px 0 0 10px;
+  font-family: 'Montserrat', verdana;
+}
+.tekst_small{
+  float: left;
+  font-size: 11px;
+  max-width: 70%;
+  padding:  8px 0 0 0px;
+  font-family: 'Montserrat', verdana;
+  clear: both;
+}
+.big-info{
+  float: left;
+  width: 50%;
+}
+.tekst_large{
+  float: left;
+  swidth: 50%
+  font-size: 14px;
+  padding: 15px 0 0 20px;
+
+  font-family: 'Montserrat', verdana;
+
+}
+.knap1 {
+
+float: right;
+padding: 70px 25px 0 0;
+  }
+.stars{
+  color: #044c7f;
+  float: left;
+  letter-spacing: 3px;
+  padding: 10px 0 0 20px;
+}
+
+.specs{
+  float: left;
+  width: 100%;
+  font-size: 9px;
+  letter-spacing: 2px;
+  padding: 9px 0 0 20px;
+  color: #282828;
+  overflow: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.knap {
+
+float: left;
+  }
+  .button4 {
+      float: right;
+      width: 98px;
+      height: 38px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      background-color: #ffffff;
+      font-size: 11px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      font-family: 'Montserrat', verdana;
+      cursor: pointer;
+    }
+
+  .button4{
+
+      color: #282828;
+      border: 1px solid #282828;
+  }
+
+  .button4:hover {
+      background-color: #3d517b;
+      color: white;
+  }
+.button5 {
+    float: right;
+    width: 63px;
+    height: 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #ffffff;
+    font-size: 11px;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    font-family: 'Montserrat', verdana;
+    cursor: pointer;
+  }
+
+.button5{
+
+    color: #282828;
+    border: 1px solid #282828;
+}
+
+.button5:hover {
+    background-color: #3d517b;
+    color: white;
+}
 
 .doodle_frog{
   width: 20%;
@@ -727,13 +946,6 @@ article{
   letter-spacing: 1.4pt;
   line-height: 1.4;
   color: #1d1d1b;
-}
-
-.indhold h2{
-  color:#1d1d1b;
-  margin: auto;
-  font-size: 24px;
-  text-align: left;
 }
 
 .section {
@@ -805,21 +1017,6 @@ article{
   text-align: center;
   padding-top: 50px;
 }
-.indhold h2{
-  margin: auto;
-  text-align: left;
-  font-size: 30px;
-  margin: -40px 0 20px 0;
-  font-family: 'Montserrat', sans-serif;
-
-}
-h2{
-  margin: auto;
-  font-size: 30px;
-  margin: 60px 0 20px 0;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-}
 
 p{
   font-family: 'Montserrat', sans-serif;
@@ -855,12 +1052,16 @@ border-top: 1px solid #282828;
     margin-top: 6px;
 }
 
+<<<<<<< HEAD
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
 <<<<<<< HEAD
+=======
+
+>>>>>>> parent of af763a9... changes
 
 #footer {
 =======
@@ -905,7 +1106,17 @@ padding-top: 10px;
 >>>>>>> 56def5d5b860f255f3b9dd737303d7e92210cc70
     width:100%;
     float: left;
-    background-color: #e9e9e9;
+    background-color: #2e4f7d;
+    padding:14px 0;
+    bottom:0;
+    clear: both;
+    border-top:1px solid #282828;
+}
+#footer-small {
+    width:100%;
+    float: left;
+    height: 28px;
+    background-color: #044c7f;
     padding:14px 0;
     bottom:0;
 }
@@ -915,6 +1126,45 @@ padding-top: 10px;
     height: 30px;
     margin:20px auto 0 auto;
 }
+.copy{
+  float: left;
+
+  font-size: 9px;
+  letter-spacing: 1.4px;
+  padding: 9px 0 0 20px;
+  color: #ffffff;
+  overflow: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+.adr{
+  font-size: 9px;
+  float: left;
+  letter-spacing: 1.4px;
+  padding: 9px 0 0 50px;
+  color: #ffffff;
+  overflow: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+.sitemap{
+  float: left;
+  font-size: 9px;
+  letter-spacing: 1.4px;
+  padding: 9px 0 0 50px;
+  color: #ffffff;
+  overflow: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+.flags{
+  float: right;
+
+}
+.falgs-padding{
+ height: 15px;
+ padding: 6px 30px 0 0;
+}
+
+
+
 
 .footer-logo{
   width: 25%;
@@ -924,14 +1174,14 @@ padding-top: 10px;
 
 .footer-tekst{
   float: left;
-  font-family: 'Coming Soon', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .footer-kasser {
   float: left;
   width: 100%;
   overflow: auto;
-  font-family: 'Coming Soon', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .kasse {
@@ -963,7 +1213,7 @@ h5{float: left;
   text-transform: uppercase;
   padding: 4px 12px 12px 0;
   display: inline-block;
-  font-family: 'Coming Soon', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .sm{
